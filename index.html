@@ -10,21 +10,28 @@
   box-sizing: border-box;
   
 }
-  .frame {
-        width: 300px;
-        height: 250px;
-        border: 3px solid #ccc;
-        background: #eee;
-        margin: auto;
-        padding: 15px 10px;
-  }
+
+  
+  .column {
+  float: left;
+  width: 80%;
+  height: 80%;
+}
+.content {
+  background-color: grey;
+  padding: 0px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
   img{
     margin: 30px;
   width: 80%;
   height:80%;
   }
 h4{
-  padding: 100px 0px 0px 0px;
+  padding: 80px 0px 0px 10px;
+}
+body > p{
+  padding: 0px 0px 0px 10px;
 }
 nav{
   box-shadow: 0px 0px 10px 0px;
@@ -93,38 +100,75 @@ Here are the latest trending photos:
 
 <Table>
 <tr>
-  <td><img  src="https://a-z-animals.com/media/2021/01/Golden-eyed-leaf-frog-400x300.jpg"></td>
-  <td><img  src="https://a-z-animals.com/media/2021/01/spring-colored-birds-flirting-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/Wild-Chameleon-Reptile-With-Beautiful-Colors-400x300.jpg"></td>
+  <td>
+  <div class="column">
+    <div class="content"><img  src="https://a-z-animals.com/media/2021/01/Golden-eyed-leaf-frog-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img  src="https://a-z-animals.com/media/2021/01/spring-colored-birds-flirting-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Wild-Chameleon-Reptile-With-Beautiful-Colors-400x300.jpg"></div>
+  </div></td>
 
 </tr>
 
 <tr>
-  <td><img src="https://a-z-animals.com/media/2021/01/Jellyfish-with-neon-glow-light-effect-in-sea-aquarium-in-Sentosa-Singapore-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/Queen-butterfly-danaus-gilippus-on-blue-hydrangea-flowers-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/mammals-400x300.jpg"></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Jellyfish-with-neon-glow-light-effect-in-sea-aquarium-in-Sentosa-Singapore-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Queen-butterfly-danaus-gilippus-on-blue-hydrangea-flowers-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/mammals-400x300.jpg"></div>
+  </div></td>
 
 </tr>
 
 <tr>
-  <td><img  src="https://a-z-animals.com/media/2021/01/Golden-eyed-leaf-frog-400x300.jpg"></td>
-  <td><img  src="https://a-z-animals.com/media/2021/01/spring-colored-birds-flirting-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/Wild-Chameleon-Reptile-With-Beautiful-Colors-400x300.jpg"></td>
+  <td><div class="column">
+    <div class="content"><img  src="https://a-z-animals.com/media/2021/01/Golden-eyed-leaf-frog-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img  src="https://a-z-animals.com/media/2021/01/spring-colored-birds-flirting-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Wild-Chameleon-Reptile-With-Beautiful-Colors-400x300.jpg"></div>
+  </div></td>
   </tr>
   <tr>
-  <td><img src="https://a-z-animals.com/media/2021/01/Jellyfish-with-neon-glow-light-effect-in-sea-aquarium-in-Sentosa-Singapore-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/Queen-butterfly-danaus-gilippus-on-blue-hydrangea-flowers-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/mammals-400x300.jpg"></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Jellyfish-with-neon-glow-light-effect-in-sea-aquarium-in-Sentosa-Singapore-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Queen-butterfly-danaus-gilippus-on-blue-hydrangea-flowers-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/mammals-400x300.jpg"></div>
+  </div></td>
 
 </tr>
 <tr>
-  <td><img  src="https://a-z-animals.com/media/2021/01/Golden-eyed-leaf-frog-400x300.jpg"></td>
-  <td><img  src="https://a-z-animals.com/media/2021/01/spring-colored-birds-flirting-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/Wild-Chameleon-Reptile-With-Beautiful-Colors-400x300.jpg"></td>
+  <td><div class="column">
+    <div class="content"><img  src="https://a-z-animals.com/media/2021/01/Golden-eyed-leaf-frog-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img  src="https://a-z-animals.com/media/2021/01/spring-colored-birds-flirting-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Wild-Chameleon-Reptile-With-Beautiful-Colors-400x300.jpg"></div>
+  </div></td>
   </tr>
-  <td><img src="https://a-z-animals.com/media/2021/01/Jellyfish-with-neon-glow-light-effect-in-sea-aquarium-in-Sentosa-Singapore-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/Queen-butterfly-danaus-gilippus-on-blue-hydrangea-flowers-400x300.jpg"></td>
-  <td><img src="https://a-z-animals.com/media/2021/01/mammals-400x300.jpg"></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Jellyfish-with-neon-glow-light-effect-in-sea-aquarium-in-Sentosa-Singapore-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/Queen-butterfly-danaus-gilippus-on-blue-hydrangea-flowers-400x300.jpg"></div>
+  </div></td>
+  <td><div class="column">
+    <div class="content"><img src="https://a-z-animals.com/media/2021/01/mammals-400x300.jpg"></div>
+  </div></td>
 </Table>
 </div>
 
